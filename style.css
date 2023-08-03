@@ -9,7 +9,7 @@
 iframe {
     position: absolute;
     margin-top: auto;
-    margin-left: 25%;
+    margin-left: 10%
 }
 
 li, a {
@@ -28,15 +28,14 @@ header {
     padding: 30px 10px;
 }
 
-.fa-brands, .fa-solid {
+.fa-brands, .fa-envelope {
     size: 70px;
     padding: 15px;
     color: #EDF0F1;
     cursor: pointer;
-    /* transition: all 0.3s ease 0s; */
 }
 
-.fa-brands:hover, .fa-solid:hover {
+.fa-brands:hover, .fa-envelope:hover {
     color: #0088A9;
 }
 
@@ -67,5 +66,37 @@ header {
 }
 
 .active {
+    color: #0088A9;
+}
+
+.parent-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: auto;
+}
+
+.round-image {
+    margin-left: 200px;
+}
+
+.about-text {
+    color: #EDF0F1;
+    position: relative;
+    margin-top: 30%;
+}
+
+.title {
+    font-family: "Montserrat", "sans-serif";
+    font-size: 45px;
+}
+
+.info, .fa-location-dot {
+    font-family: "Montserrat";
+    font-size: 18px;
+    /* list-style: none; */
+}
+
+.link:hover {
     color: #0088A9;
 }
