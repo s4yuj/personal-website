@@ -24,7 +24,7 @@ li, a {
 
 header {
     padding-top: 7%;
-    padding-right: 20%;
+    padding-right: 15%;
 }
 
 .content {
@@ -34,6 +34,7 @@ header {
 
 ul {
     list-style-type: none;
+    line-height: 35px;
 }
 
 .name {
@@ -41,6 +42,10 @@ ul {
     font-size: 100px;
     padding-bottom: 5%;
     font-weight: 900;
+}
+
+.about {
+    font-size: 50px;
 }
 
 .buttons-right {
@@ -59,12 +64,12 @@ ul {
 }
 
 .nav {
-    text-align: center;
+    text-align: right;
     font-size: 16px;
 }
 
 .icons {
-    text-align: center;
+    text-align: right;
 }
 
 .nav__list {
@@ -83,6 +88,17 @@ ul {
 
 .intro {
     font-size: 17px;
+    float: left;
+}
+
+.content-left {
+    float: left;
+}
+
+.content-right {
+    font-size: 15px;
+    padding-top: 10%;
+    padding-right: 17%;
 }
 
 .active {
